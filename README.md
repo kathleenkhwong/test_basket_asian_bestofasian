@@ -46,6 +46,8 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfully.
 
+![step0](https://user-images.githubusercontent.com/31410379/29795493-79f9a9bc-8c1a-11e7-9a76-7d2c050da54c.PNG)
+
 ### Step 1. Initialize Parameters
 
 
