@@ -122,7 +122,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 ![values_output](https://user-images.githubusercontent.com/31410379/29797939-fd7794d6-8c27-11e7-83b6-c881090935fa.PNG)
 
-The lines `J` and `fprintf('option value %f\n', z1)` are commented out in the file. Uncomment these two lines if interested in these values.
+The lines `J` and `fprintf('option value %f\n', z1)` are usually commented out in the file, i.e. except for demostration in the figure above. Uncomment these two lines if interested in these values. 
 
 ## 2. Asian Options
 
