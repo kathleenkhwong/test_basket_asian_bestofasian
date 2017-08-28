@@ -50,5 +50,6 @@ Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfu
 
 ### Step 1. Initialize Parameters
 
+For this example, we will initialize 10 underlying assets and 5 baskets. The number of assets and number of baskets will be keep constant for this experiment. 
 
 
