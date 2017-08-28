@@ -68,14 +68,28 @@ In this experiment, these are the only two parameters to change. The goal is to 
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
-`Param.batch_size` respresents batch size, i.e. Batch size = 100
+`Param.batch_size` respresents batch size, i.e. batch size = 100
 
 ![mcpath_batchsize](https://user-images.githubusercontent.com/31410379/29796222-01f72d1e-8c1e-11e7-80a9-da312f88ed15.PNG)
 
-Note: Note: When MC instances equals to batch size, the code is not exploiting structure, i.e. plain reverse mode. This is used as a control case to show the effect on time and space after exploiting structured AD. Below is an example of plain reverse mode AD:
+Note: When MC instances equals to batch size, the code is not exploiting structure, i.e. plain reverse mode. This is used as a control case to show the effect on time and space after exploiting structured AD. Below is an example of plain reverse mode AD:
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
-`Param.batch_size` respresents batch size, i.e. Batch size = 10000
+`Param.batch_size` respresents batch size, i.e. batch size = 10000
+
+### Step 2. Time required for gradient computation
+
+#### Use tic toc and comment out the other two options in the function:
+
+`tag_weighted` represents basket options in the function `test_basket_asian_bestof()`
+
+1. For time required by basket options, put tic toc around `run_test(tag_weighted)`.
+
+2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of).
+
+3. Run the function `test_basket_asian_bestofasian()`.
+
+4. For `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the total time (i.e. option pricing + gradient computation) required for the basket option is 13.27 seconds.
 
 
