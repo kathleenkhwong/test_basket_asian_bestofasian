@@ -1,6 +1,6 @@
 # User Manual for test_basket_asian_bestofasian
 
-The author of this code is Wanqi Li. This code is written to test ADMAT 2.0 on finding gradients for basket options, Asian options, and best of Asian options. In order to run it, you require ADMAT 2.0 with jacobianst.m and MATLAB 2016b or later.
+The author of this code is Wanqi Li (wanqi@outlook.com). This code is written to test ADMAT 2.0 on finding gradients for basket options, Asian options, and best of Asian options. In order to run it, you will need ADMAT 2.0 with jacobianst.m and MATLAB 2016b or later.
 
 This user manual assumes a basic understanding of automatic differentiation. Introduction to automatic differentiation can be found in following books.
 
@@ -26,7 +26,7 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
   
 * Space required for option pricing and gradient computation
   
-* Option value and gradient outputs, if interested
+* Option value and gradient output, if interested
 
 ### 3. Best of Asian Options
 
@@ -106,9 +106,22 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 3. Run the function `test_basket_asian_bestofasian()`.
 
-![profiler_basket](https://user-images.githubusercontent.com/31410379/29797480-4b142d60-8c25-11e7-8337-9db6dacec1b5.PNG)
+![space_basket](https://user-images.githubusercontent.com/31410379/29797537-a1e7d5a6-8c25-11e7-84ad-0f75d41068d7.PNG)
 
 4. For the basket option with `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the peak memory is 5.64 MB.
+
+![profiler_basket](https://user-images.githubusercontent.com/31410379/29797480-4b142d60-8c25-11e7-8337-9db6dacec1b5.PNG)
+
+### Step 4. Option value and gradient outputs, if interested
+
+#### If interested in the option values and gradients, uncomment the lines specificed below and run `test_basket_asian_bestofasian()` as shown in the previous step:
+
+`z1` represents the vector of option values
+
+`J` represents the Jacobian
+
+The lines `J` and `fprintf('option value %f\n', z1)` are commented out in the file. Uncomment these two lines if interested in these values.
+
 
 
 
