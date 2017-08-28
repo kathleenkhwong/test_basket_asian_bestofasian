@@ -8,9 +8,9 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 # Table of Contents
 
-###1. Basket Options
+### 1. Basket Options
 
-       * Initialize parameters
+* Initialize parameters
   
        * Time required for gradient computation
   
