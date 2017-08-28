@@ -64,7 +64,7 @@ Number of baskets
 
 #### Set number of total Monte Carlo instances and batch size:
 
-In this experiment, these are the only two parameters to change. The goal is to find the time (sec) required and space (MB) required for different combinations of Monte Carlo (MC) instances and batch sizes. Batch size represents number of paths in each batch. In the structured test case below:
+In this experiment, these are the only two parameters to change. The goal is to find the time (sec) required and space (MB) required by different combinations of Monte Carlo (MC) instances and batch sizes. Batch size represents number of paths in each batch. In the structured test case below:
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
@@ -90,7 +90,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 3. Run the function `test_basket_asian_bestofasian()`.
 
-4. For `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the total time (i.e. option pricing + gradient computation) required for the basket option is 13.27 seconds.
+4. For `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the total time (i.e. option pricing + gradient computation) required by the basket option is 13.27 seconds.
 
 ![time_basket](https://user-images.githubusercontent.com/31410379/29797202-cd59c408-8c23-11e7-97f8-50119ce2aba8.PNG)
 
@@ -119,6 +119,8 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 `z1` represents the vector of option values
 
 `J` represents the Jacobian
+
+![values_output](https://user-images.githubusercontent.com/31410379/29797939-fd7794d6-8c27-11e7-83b6-c881090935fa.PNG)
 
 The lines `J` and `fprintf('option value %f\n', z1)` are commented out in the file. Uncomment these two lines if interested in these values.
 
