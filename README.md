@@ -126,6 +126,20 @@ The lines `J` and `fprintf('option value %f\n', z1)` are commented out in the fi
 
 ## 2. Asian Options
 
+### Step 1. Initialize Parameters
+
+#### Set number of underlying assets and number of baskets: 
+
+For this example, we will initialize 10 underlying assets.
+
+![n_asset](https://user-images.githubusercontent.com/31410379/29795930-8fdb63b8-8c1c-11e7-8a18-357006292e74.PNG)
+
+Number of underlying assets
+
+![n_basket](https://user-images.githubusercontent.com/31410379/29795969-be882c00-8c1c-11e7-8199-70896c7472ea.PNG)
+
+Note: No need to change anything here. It does not affect the number of underlying assets for the Asian option leaving it as it. We will have 10 option values as the output.
+
 Everything is the same as basket options except we now use `run_test(tag_asian)` instead of `run_test(tag_weighted)`.
 
 ## 3. Best of Asian Options
