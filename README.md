@@ -1,4 +1,4 @@
-# test_basket_asian_bestofasian
+# User Manual for test_basket_asian_bestofasian
 
 The author of this code is Wanqi Li. This code is written to test ADMAT 2.0 on finding gradients for basket options, Asian options, and best of Asian options. In order to run it, you require ADMAT 2.0 with jacobianst.m and MATLAB 2016b or later.
 
@@ -12,33 +12,41 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 * Initialize parameters
   
-       * Time required for gradient computation
+* Time required for gradient computation
   
-       * Space required for gradient computation
+* Space required for gradient computation
   
-       * Option value and gradient outputs, if interested
+* Option value and gradient outputs, if interested
   
-2. Asian Options
+### 2. Asian Options
 
-  a. Initialize parameters
+* Initialize parameters
   
-  b. Time required for gradient computation
+* Time required for gradient computation
   
-  c. Space required for gradient computation
+* Space required for gradient computation
   
-  d. Option value and gradient outputs
+* Option value and gradient outputs, if interested
 
-3. Best of Asian Options
+### 3. Best of Asian Options
 
-  a. Initialize parameters
+* Initialize parameters
   
-  b. Time required for gradient computation
+* Time required for gradient computation
   
-  c. Space required for gradient computation
+* Space required for gradient computation
   
-  d. Option value and gradient outputs
+* Option value and gradient outputs, if interested
   
-## Step 0. 
+# Instructions
 
-Enter "startup" to ensure ADMAT 2.0 has been installed successfully.
+## 1. Basket Options
+
+### Step 0. 
+
+Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfully.
+
+### Step 1. Initialize Parameters
+
+
 
