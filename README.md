@@ -12,9 +12,9 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 * Initialize parameters
   
-* Time required for gradient computation
+* Time required for option pricing and gradient computation
   
-* Space required for gradient computation
+* Space required for option pricing and gradient computation
   
 * Option value and gradient outputs, if interested
   
@@ -22,9 +22,9 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 * Initialize parameters
   
-* Time required for gradient computation
+* Time required for option pricing and gradient computation
   
-* Space required for gradient computation
+* Space required for option pricing and gradient computation
   
 * Option value and gradient outputs, if interested
 
@@ -32,9 +32,9 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 * Initialize parameters
   
-* Time required for gradient computation
+* Time required for option pricing and gradient computation
   
-* Space required for gradient computation
+* Space required for option pricing and gradient computation
   
 * Option value and gradient outputs, if interested
   
@@ -82,7 +82,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 #### Use tic toc and comment out the other two options in the function:
 
-`tag_weighted` represents basket options in the function `test_basket_asian_bestof()`
+`tag_weighted` represents basket options in the function `test_basket_asian_bestofasian()`
 
 1. For time required by basket options, put tic toc around `run_test(tag_weighted)`.
 
@@ -92,4 +92,19 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 4. For `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the total time (i.e. option pricing + gradient computation) required for the basket option is 13.27 seconds.
 
+![time_basket](https://user-images.githubusercontent.com/31410379/29797202-cd59c408-8c23-11e7-97f8-50119ce2aba8.PNG)
+
+### Step 3. Space required for gradient computation
+
+#### Use profiler and comment out the other two options in the function:
+
+`tag_weighted` represents basket options in the function `test_basket_asian_bestofasian()`
+
+1. For space required by basket options, put `profile -memory on` and `profreport` around `run_test(tag_weighted)`.
+
+2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of).
+
+3. Run the function `test_basket_asian_bestofasian()`.
+
+4. The peak memory required is 5.64 MB.
 
