@@ -6,7 +6,39 @@ This user manual assumes a basic understanding of automatic differentiation. Int
 
 Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT with Applications. Society for industrial and applied mathematics.
 
-# Step 0. 
+# Table of Contents
+
+1. Basket Options
+
+  a. Initialize parameters
+  
+  b. Time required for gradient computation
+  
+  c. Space required for gradient computation
+  
+  d. Option value and gradient outputs
+  
+2. Asian Options
+
+  a. Initialize parameters
+  
+  b. Time required for gradient computation
+  
+  c. Space required for gradient computation
+  
+  d. Option value and gradient outputs
+
+3. Best of Asian Options
+
+  a. Initialize parameters
+  
+  b. Time required for gradient computation
+  
+  c. Space required for gradient computation
+  
+  d. Option value and gradient outputs
+  
+## Step 0. 
 
 Enter "startup" to ensure ADMAT 2.0 has been installed successfully.
 
