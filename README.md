@@ -64,4 +64,11 @@ Number of baskets
 
 #### Set number of total Monte Carlo instances and batch size:
 
+In this experiment, these are the only two parameters to change. The goal is to find the time (sec) required and space (MB) required for different combinations of Monte Carlo (MC) instances and batch sizes. In the test case below:
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. Batch size = 100
+
+![mcpath_batchsize](https://user-images.githubusercontent.com/31410379/29796222-01f72d1e-8c1e-11e7-80a9-da312f88ed15.PNG)
 
