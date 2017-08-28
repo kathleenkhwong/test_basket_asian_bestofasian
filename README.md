@@ -142,11 +142,13 @@ Note: No need to change anything here. It does not affect the number of underlyi
 
 Everything is the same as basket options except we now use `run_test(tag_asian)` instead of `run_test(tag_weighted)`.
 
+![asian](https://user-images.githubusercontent.com/31410379/29798296-43512dbc-8c2a-11e7-9c84-a09954e41346.PNG)
+
 ## 3. Best of Asian Options
 
-Everything is the same as basket options except we now use `run_test(tag_best_of)` instead of `run_test(tag_weighted)`.
+Everything is the same as Asian options except we now use `run_test(tag_best_of)` instead of `run_test(tag_asian)`.
 
-
+![best_of](https://user-images.githubusercontent.com/31410379/29798297-43600490-8c2a-11e7-974d-6f3f4f1cff43.PNG)
 
 
 
