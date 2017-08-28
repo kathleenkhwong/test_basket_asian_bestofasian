@@ -6,3 +6,7 @@ This user manual assumes a basic understanding of automatic differentiation. Int
 
 Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT with Applications. Society for industrial and applied mathematics.
 
+# Step 0. 
+
+Enter "startup" to ensure ADMAT 2.0 has been installed successfully.
+
