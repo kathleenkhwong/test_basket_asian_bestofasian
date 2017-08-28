@@ -102,7 +102,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 1. For space required by basket options, put `profile -memory on` and `profreport` around `run_test(tag_weighted)`.
 
-2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of).
+2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of)`.
 
 3. Run the function `test_basket_asian_bestofasian()`.
 
