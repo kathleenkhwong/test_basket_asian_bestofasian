@@ -2,7 +2,7 @@
 
 The author of this code is Wanqi Li (wanqi@outlook.com). This code is written to test ADMAT 2.0 on finding gradients for basket options, Asian options, and best of Asian options. In order to run it, you will need ADMAT 2.0 with jacobianst.m and MATLAB 2016b or later.
 
-This user manual assumes a basic understanding of automatic differentiation. Introduction to automatic differentiation can be found in following books.
+This user manual assumes a basic understanding of automatic differentiation. Introduction to automatic differentiation can be found in the following book.
 
 Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT with Applications. Society for industrial and applied mathematics.
 
