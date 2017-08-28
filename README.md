@@ -50,10 +50,18 @@ Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfu
 
 ### Step 1. Initialize Parameters
 
+#### Set number of underlying assets and number of baskets: 
+
 For this example, we will initialize 10 underlying assets and 5 baskets. The number of assets and number of baskets will be keep constant for this experiment. 
 
 ![n_asset](https://user-images.githubusercontent.com/31410379/29795930-8fdb63b8-8c1c-11e7-8a18-357006292e74.PNG)
+
 Number of underlying assets
 
+![n_basket](https://user-images.githubusercontent.com/31410379/29795969-be882c00-8c1c-11e7-8199-70896c7472ea.PNG)
 
-Nuber of baskets
+Number of baskets
+
+#### Set number of total Monte Carlo instances and batch size:
+
+
