@@ -10,13 +10,13 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 1. Basket Options
 
-  a. Initialize parameters
+  *Initialize parameters
   
-  b. Time required for gradient computation
+  *Time required for gradient computation
   
-  c. Space required for gradient computation
+  *Space required for gradient computation
   
-  d. Option value and gradient outputs
+  *Option value and gradient outputs, if interested
   
 2. Asian Options
 
