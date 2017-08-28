@@ -86,7 +86,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 1. For time required by basket options, put tic toc around `run_test(tag_weighted)`.
 
-2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of).
+2. Comment out `run_test(tag_asian)` and `run_test(tag_best_of)`.
 
 3. Run the function `test_basket_asian_bestofasian()`.
 
@@ -123,6 +123,16 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 ![values_output](https://user-images.githubusercontent.com/31410379/29797939-fd7794d6-8c27-11e7-83b6-c881090935fa.PNG)
 
 The lines `J` and `fprintf('option value %f\n', z1)` are commented out in the file. Uncomment these two lines if interested in these values.
+
+## 2. Asian Options
+
+Everything is the same as basket options except we now use `run_test(tag_asian)` instead of `run_test(tag_weighted)`.
+
+## 3. Best of Asian Options
+
+Everything is the same as basket options except we now use `run_test(tag_best_of)` instead of `run_test(tag_weighted)`.
+
+
 
 
 
