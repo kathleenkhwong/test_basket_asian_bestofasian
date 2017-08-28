@@ -128,7 +128,7 @@ The lines `J` and `fprintf('option value %f\n', z1)` are usually commented out i
 
 ### Step 1. Initialize Parameters
 
-#### Set number of underlying assets and number of baskets: 
+#### Set number of underlying assets:
 
 For this example, we will initialize 10 underlying assets.
 
