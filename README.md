@@ -116,7 +116,7 @@ Note: When MC instances equals to batch size, the code is not exploiting structu
 
 ![space_basket](https://user-images.githubusercontent.com/31410379/29797537-a1e7d5a6-8c25-11e7-84ad-0f75d41068d7.PNG)
 
-4. For the basket option with `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the peak memory is 5.64 MB.
+4. For the basket option with `Param.mc_insts` = 10000 and `Param.batch_size` = 100, the peak memory is 5.652 MB.
 
 ![profiler_basket](https://user-images.githubusercontent.com/31410379/29803076-7d457c54-8c47-11e7-8ce7-0c2a5a56d812.PNG)
 
