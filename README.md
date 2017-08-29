@@ -156,11 +156,13 @@ Everything is the same as Asian options except we now use `run_test(tag_best_of)
 
 ## 4. Appendix
 
-### Additional test cases for basket options (i.e. all combinations of MC instances and batch sizes)
+### Additional test cases for basket options (i.e. all combinations of MC instances and batch sizes). These results are consistent with the results presented in the paper.
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
 `Param.batch_size` respresents batch size, i.e. batch size = 200
+
+The peak memory for this case is 11.456 MB.
 
 ![basket200](https://user-images.githubusercontent.com/31410379/29799086-5169f10e-8c2f-11e7-8e4a-3d0b7a23e9fa.PNG)
 
@@ -168,15 +170,19 @@ Everything is the same as Asian options except we now use `run_test(tag_best_of)
 
 `Param.batch_size` respresents batch size, i.e. batch size = 500
 
+The peak memory for this case is 28.852 MB.
+
 ![basket500](https://user-images.githubusercontent.com/31410379/29799087-5178d5e8-8c2f-11e7-946b-ca8f0fa57198.PNG)
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
 `Param.batch_size` respresents batch size, i.e. batch size = 1000
 
+The peak memory for this case is 56.364 MB.
+
 ![basket1000](https://user-images.githubusercontent.com/31410379/29799088-517c4598-8c2f-11e7-8abd-53756ee5de88.PNG)
 
-The following is the unstructured (i.e. plain reverse mode) case:
+The following is the unstructured (i.e. plain reverse mode) case, the peak memory for this case is 563.712 MB:
 
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
