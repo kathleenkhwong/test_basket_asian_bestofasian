@@ -37,7 +37,11 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 * Space required for option pricing and gradient computation
   
 * Option value and gradient outputs, if interested
-  
+
+### 4. Appendix
+
+* Additional test cases
+
 # Instructions
 
 ## 1. Basket Options
@@ -149,6 +153,12 @@ Everything is the same as basket options except we now use `run_test(tag_asian)`
 Everything is the same as Asian options except we now use `run_test(tag_best_of)` instead of `run_test(tag_asian)`.
 
 ![best_of](https://user-images.githubusercontent.com/31410379/29798297-43600490-8c2a-11e7-974d-6f3f4f1cff43.PNG)
+
+## 4. Appendix
+
+### Additional test cases
+
+
 
 
 
