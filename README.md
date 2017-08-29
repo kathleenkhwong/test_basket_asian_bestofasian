@@ -68,6 +68,8 @@ Number of underlying assets
 
 Number of baskets
 
+---
+
 #### Set number of total Monte Carlo instances and batch size:
 
 In this experiment, these are the only two parameters to change. The goal is to find the time (sec) required and space (MB) required by different combinations of Monte Carlo (MC) instances and batch sizes. Batch size represents number of paths in each batch. In the structured test case below:
