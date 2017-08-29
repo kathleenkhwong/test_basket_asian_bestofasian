@@ -44,7 +44,7 @@ Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT
 
 ### Step 0. 
 
-Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfully.
+Enter "startup" in the command line to ensure ADMAT 2.0 has been installed successfully.
 
 ![step0](https://user-images.githubusercontent.com/31410379/29795493-79f9a9bc-8c1a-11e7-9a76-7d2c050da54c.PNG)
 
@@ -52,7 +52,7 @@ Enter "startup" in command line to ensure ADMAT 2.0 has been installed successfu
 
 #### Set number of underlying assets and number of baskets: 
 
-For this example, we will initialize 10 underlying assets and 5 baskets. The number of assets and number of baskets will be keep constant for this experiment. 
+For this example, we will initialize 10 underlying assets and 5 baskets. The number of assets and number of baskets will be kept constant for this experiment. 
 
 ![n_asset](https://user-images.githubusercontent.com/31410379/29795930-8fdb63b8-8c1c-11e7-8a18-357006292e74.PNG)
 
