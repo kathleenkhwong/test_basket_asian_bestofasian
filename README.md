@@ -204,6 +204,28 @@ The following is the unstructured (i.e. plain reverse mode) case, the peak memor
 
 ![basket10000](https://user-images.githubusercontent.com/31410379/29799089-517cb488-8c2f-11e7-9047-98a279fb60d2.PNG)
 
+---
 
+### Additional test case for Asian options. This result is consistent with the result presented in the paper.
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. batch size = 100
+
+The total time required for this case is 14.411 sec.
+
+![asian100](https://user-images.githubusercontent.com/31410379/29844398-24ddf6b8-8cdd-11e7-9fab-c11000ddaff0.PNG)
+
+---
+
+### Additional test case for best of Asian options. This result is consistent with the result presented in the paper.
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. batch size = 100
+
+The total time required for this case is 13.069 sec.
+
+![bestof_100](https://user-images.githubusercontent.com/31410379/29844397-24daae9a-8cdd-11e7-93cc-9cfccba84ea5.PNG)
 
 
