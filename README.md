@@ -62,6 +62,8 @@ For this example, we will initialize 10 underlying assets and 5 baskets. The num
 
 Number of underlying assets
 
+---
+
 ![n_basket](https://user-images.githubusercontent.com/31410379/29795969-be882c00-8c1c-11e7-8199-70896c7472ea.PNG)
 
 Number of baskets
@@ -140,9 +142,13 @@ For this example, we will initialize 10 underlying assets.
 
 Number of underlying assets
 
+---
+
 ![n_basket](https://user-images.githubusercontent.com/31410379/29795969-be882c00-8c1c-11e7-8199-70896c7472ea.PNG)
 
 Note: No need to change anything here. It does not affect the number of underlying assets for the Asian option leaving it as it. We will have 10 option values as the output.
+
+---
 
 Everything is the same as basket options except we now use `run_test(tag_asian)` instead of `run_test(tag_weighted)`.
 
@@ -166,6 +172,8 @@ The peak memory for this case is 11.456 MB.
 
 ![basket200](https://user-images.githubusercontent.com/31410379/29799086-5169f10e-8c2f-11e7-8e4a-3d0b7a23e9fa.PNG)
 
+---
+
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
 `Param.batch_size` respresents batch size, i.e. batch size = 500
@@ -174,6 +182,8 @@ The peak memory for this case is 28.852 MB.
 
 ![basket500](https://user-images.githubusercontent.com/31410379/29799087-5178d5e8-8c2f-11e7-946b-ca8f0fa57198.PNG)
 
+---
+
 `Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
 `Param.batch_size` respresents batch size, i.e. batch size = 1000
@@ -181,6 +191,8 @@ The peak memory for this case is 28.852 MB.
 The peak memory for this case is 56.364 MB.
 
 ![basket1000](https://user-images.githubusercontent.com/31410379/29799088-517c4598-8c2f-11e7-8abd-53756ee5de88.PNG)
+
+---
 
 The following is the unstructured (i.e. plain reverse mode) case, the peak memory for this case is 563.712 MB:
 
