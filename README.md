@@ -156,9 +156,33 @@ Everything is the same as Asian options except we now use `run_test(tag_best_of)
 
 ## 4. Appendix
 
-### Additional test cases
+### Additional test cases for basket options (i.e. all combinations of MC instances and batch sizes)
 
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
 
+`Param.batch_size` respresents batch size, i.e. batch size = 200
+
+![basket200](https://user-images.githubusercontent.com/31410379/29799086-5169f10e-8c2f-11e7-8e4a-3d0b7a23e9fa.PNG)
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. batch size = 500
+
+![basket500](https://user-images.githubusercontent.com/31410379/29799087-5178d5e8-8c2f-11e7-946b-ca8f0fa57198.PNG)
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. batch size = 1000
+
+![basket1000](https://user-images.githubusercontent.com/31410379/29799088-517c4598-8c2f-11e7-8abd-53756ee5de88.PNG)
+
+The following is the unstructured (i.e. plain reverse mode) case:
+
+`Param.mc_insts` represents MC instances, i.e. MC instances = 10000
+
+`Param.batch_size` respresents batch size, i.e. batch size = 10000
+
+![basket10000](https://user-images.githubusercontent.com/31410379/29799089-517cb488-8c2f-11e7-9047-98a279fb60d2.PNG)
 
 
 
